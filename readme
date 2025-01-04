@@ -1,0 +1,73 @@
+# Tech Quiz Application: Test Suite Enhancement
+
+## 🚀 Overview
+Welcome to the **Tech Quiz Application**! This project is a fully functional quiz platform that lets users answer 10 random questions and test their knowledge. The app, built with the **MERN stack** (MongoDB, Express.js, React, and Node.js), is enhanced with robust testing capabilities using **Cypress**.
+
+### 🧠 User Story
+> As an aspiring developer, I want to take a tech quiz so that I can test my knowledge and improve my skills.
+
+## 🎯 Features
+- **Dynamic Quiz Generation**: Ten random questions every time you start a quiz.
+- **Interactive Experience**: Answer questions and see your progress in real-time.
+- **Score Summary**: View your final score after completing the quiz.
+- **Replay Option**: Start a new quiz anytime.
+
+## 🔍 Acceptance Criteria
+1. When the start button is clicked, the quiz begins.
+2. Questions are presented one at a time.
+3. Upon answering all questions, the quiz ends.
+4. Users can view their final score.
+5. Users can start a new quiz.
+
+## 🛠️ Tech Stack
+- **Frontend**: React
+- **Backend**: Node.js and Express.js
+- **Database**: MongoDB
+- **Testing**: Cypress (Component and End-to-End Tests)
+
+
+
+## 📝 Installation & Setup
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/tech-quiz.git
+```
+
+### Step 2: Install Dependencies
+Navigate to the project root and run:
+```bash
+npm install
+```
+
+### Step 3: Configure Environment Variables
+Rename `.env.example` to `.env` and set the required variables.
+
+### Step 4: Start the Application
+To run the server and client:
+```bash
+npm start
+```
+
+### Step 5: Run Tests
+Open Cypress for testing:
+```bash
+npm run test
+```
+
+---
+
+## 🌟 Highlights
+- **Interactive Testing**: Cypress ensures the application is reliable and user-friendly.
+- **Reusable Components**: Focused testing on reusable parts of the app.
+- **Dynamic User Flow**: Tested from start to finish for a seamless user experience.
+
+---
+
+## 📜 License
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+### 💡 Ready to test your tech skills? Start the quiz and push your limits!
+
